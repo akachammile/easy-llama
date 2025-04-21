@@ -1,2 +1,2 @@
-# 基于langchain的llama学习之旅
+# 基于langchain的llama练手之作
 工作方向确定为大模型了，但是一个llama项目有些复杂，因此基于langchain和一些开源项目，从0开始写一个练练手，后续会集成mcp
