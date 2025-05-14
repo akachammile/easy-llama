@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Request
-from langchain.callbacks import AsyncIteratorCallbackHandler
+from server.api.chat_api import file_chat_api
 
 chat_router = APIRouter(prefix="/chat", tags=["对话"])
 
-@chat_router.post("/file")
-async def file_chat():
-    print("Xxxxxxxx")
+
+
+chat_router.post("/file")(file_chat_api)

@@ -23,12 +23,8 @@ def create_app():
 
 
     app.include_router(chat_router)
-
     return app
-    # app.include_router(kb_router)
-    # app.include_router(tool_router)
-    # app.include_router(openai_router)
-    # app.include_router(server_router)
+ 
 
 app = create_app()
 
